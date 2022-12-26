@@ -28,7 +28,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Работник ФИО: " + name + " " + patronymic + " " + lastName + " " + ", ID: " + id + ", отдел: "
+        return "Работник ФИО: " + lastName + " " + name + " " + patronymic + " " + ", ID: " + id + ", отдел: "
                 + department + ", заработная плата:" + String.format("%.2f", salary);
     }
 

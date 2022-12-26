@@ -24,6 +24,8 @@ public class Main {
         System.out.println("Сумма всех зарплат всех сотрудников составляет " + employeeBook.sumSalary() + " рублей");
         employeeBook.averageSalary();
         System.out.println("Средняя зарплата сотрудников составляет: " + employeeBook.averageSalary());
+        System.out.println("Список сотрудников компании по департаментам:");
         employeeBook.printAllEmployeeByDepartmentGrouping();
+
     }
 }
